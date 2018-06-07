@@ -1,0 +1,32 @@
+.wrapp_top {
+	width: 100%;
+	min-height: 200px;
+	overflow: hidden;
+}
+
+.rec_list {
+	float: left; 
+	margin-left: 0em;
+	padding-left: 10px;
+	background-color: #eee;
+	min-width: 200px;
+}
+
+.rec_list ul {
+	margin-left: 0em;
+}
+
+.rec_list li {
+	list-style-type: disc;
+	list-style-position: inside;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.rec_list:hover {
+	background-color: #b5d1ff;
+}
+
+.rec_list:first-child {
+	background-color: #b5d1ff;
+}
